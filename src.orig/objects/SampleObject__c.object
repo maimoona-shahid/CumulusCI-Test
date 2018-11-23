@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>Accept</actionName>
@@ -75,7 +75,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>SampleObjects</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <webLinks>
         <fullName>Just_Testing</fullName>
@@ -85,6 +85,6 @@
         <masterLabel>Just Testing</masterLabel>
         <openType>onClickJavaScript</openType>
         <protected>false</protected>
-        <url>alert('Just Testing!');</url>
+        <url>alert(&apos;Just Testing!&apos;);</url>
     </webLinks>
 </CustomObject>
