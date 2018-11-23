@@ -3,5 +3,4 @@
     <apex:repeat value="{!Samples}" var="sample">
         <apex:outputField value="{!sample.Sample_Field__c}" />
     </apex:repeat>
-<!-- Comment updated -->
 </apex:page>
